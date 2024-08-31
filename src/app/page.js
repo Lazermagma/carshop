@@ -3,7 +3,7 @@ import LogoCards from "@/components/logoCards/LogoCards.component";
 
 function Home() {
   return (
-    <div className="min-h-screen min-w-screen flex flex-col items-center gap-20 p-6 justify-center">
+    <div className=" flex flex-col items-center gap-20 p-6 justify-center">
       <LogoCards />
       <CarsCards />
     </div>

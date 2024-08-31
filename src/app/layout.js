@@ -1,4 +1,6 @@
+import TopBar from "@/components/TopBar/TopBar.component";
 import "./globals.css";
+import SideDashboard from "@/components/SideDashboard/SideDashboard.component";
 
 export const metadata = {
   title: "Create Next App",
@@ -8,7 +10,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en ">
-      <body className="bg-slate-200 w-screen h-screen">{children}</body>
+      <body className="bg-slate-200 w-screen h-screen">
+        <div className="flex flex-row gap-5">
+          <SideDashboard />
+          <div className="w-full ">
+            <TopBar />
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
