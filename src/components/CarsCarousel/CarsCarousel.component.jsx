@@ -20,37 +20,16 @@ const CarsCarousel = () => {
         {page === 1 && (
           <div className="flex flex-row justify-center flex-wrap gap-10 w-full">
             <img
-              src="assets/images/cars/BMW_X1 Road.png"
+              src="assets/images/cars/BMW interior.png"
               className="w-64 h-36"
             />
-            <img
-              src="assets/images/cars/BMW_X1 Road.png"
-              className="w-64 h-36"
-            />
-            <img
-              src="assets/images/cars/BMW_X1 Road.png"
-              className="w-64 h-36"
-            />
-            <img
-              src="assets/images/cars/BMW_X1 Road.png"
-              className="w-64 h-36"
-            />
-            <img
-              src="assets/images/cars/BMW_X1 Road.png"
-              className="w-64 h-36"
-            />
-            <img
-              src="assets/images/cars/BMW_X1 Road.png"
-              className="w-64 h-36"
-            />
-            <img
-              src="assets/images/cars/BMW_X1 Road.png"
-              className="w-64 h-36"
-            />
-            <img
-              src="assets/images/cars/BMW_X1 Road.png"
-              className="w-64 h-36"
-            />
+            <img src="assets/images/cars/BMW2 Road.png" className="w-64 h-36" />
+            <img src="assets/images/cars/BMW3.png" className="w-64 h-36" />
+            <img src="assets/images/cars/BMW4.png" className="w-64 h-36" />
+            <img src="assets/images/cars/BMW5.png" className="w-64 h-36" />
+            <img src="assets/images/cars/BMW6.png" className="w-64 h-36" />
+            <img src="assets/images/cars/BMW7.png" className="w-64 h-36" />
+            <img src="assets/images/cars/BMW8.png" className="w-64 h-36" />
           </div>
         )}
 
