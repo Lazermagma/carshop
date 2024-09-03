@@ -7,6 +7,7 @@ function LogoCards() {
         <div className="bg-white rounded-2xl w-56 h-64 hover:bg-gray-400 hover:cursor-pointer  flex items-center justify-center transition ease-in-out">
           <img src="assets/images/logos/Lamborghini_logo.png" />
         </div>
+
         <div className="bg-white rounded-2xl w-56 h-64 hover:bg-gray-400 hover:cursor-pointer  flex items-center justify-center transition ease-in-out">
           <img src="assets/images/logos/BMW_logo.png" />
         </div>

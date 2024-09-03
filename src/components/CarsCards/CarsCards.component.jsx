@@ -1,15 +1,17 @@
 import React from "react";
-
+import Link from "next/link";
 const CarsCards = () => {
   return (
     <>
       <div className="grid grid-cols-3 gap-10  ">
-        <div className="bg-white rounded-2xl hover:bg-gray-400 w-80 h-60 hover:cursor-pointer flex flex-col items-center justify-center transition ease-in-out">
-          <img src="assets/images/cars/BMW_X1.png" />
-          <div className="p-4 w-full font-semibold">
-            <p>BMW X1 </p>
+        <Link href="/CarDetails">
+          <div className="bg-white rounded-2xl hover:bg-gray-400 w-80 h-60 hover:cursor-pointer flex flex-col items-center justify-center transition ease-in-out">
+            <img src="assets/images/cars/BMW_X1.png" />
+            <div className="p-4 w-full font-semibold">
+              <p>BMW X1 </p>
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="bg-white rounded-2xl w-80 h-60 hover:bg-gray-400 hover:cursor-pointer flex flex-col items-center justify-center transition ease-in-out">
           <img src="assets/images/cars/LamborghiniUrus.png" />
           <div className="p-4 w-full font-semibold">
