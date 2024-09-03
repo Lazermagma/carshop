@@ -9,6 +9,7 @@ import LocalGasStationIcon from "@mui/icons-material/LocalGasStation";
 import DirectionsCarFilledIcon from "@mui/icons-material/DirectionsCarFilled";
 import AirportShuttleIcon from "@mui/icons-material/AirportShuttle";
 import AddRoadIcon from "@mui/icons-material/AddRoad";
+import CarsCarousel from "@/components/CarsCarousel/CarsCarousel.component";
 
 const CarDetails = () => {
   return (
@@ -109,6 +110,8 @@ const CarDetails = () => {
       </div>
 
       {/* Car Carousel */}
+
+      <CarsCarousel />
     </div>
   );
 };

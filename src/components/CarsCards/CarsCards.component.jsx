@@ -21,7 +21,7 @@ const CarsCards = () => {
 
         <div className="bg-white rounded-2xl w-80 h-60 hover:bg-gray-400 hover:cursor-pointer flex flex-col items-center justify-center transition ease-in-out">
           <img src="assets/images/cars/Volvoxc90.png" />
-          <div className="p-4 w-full font-semibold">
+          <div className="p-4 w-full  font-semibold">
             <p>Volvo XC90 </p>
           </div>
         </div>
