@@ -5,15 +5,18 @@ import LocalMallIcon from "@mui/icons-material/LocalMall";
 import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
 import EmojiTransportationIcon from "@mui/icons-material/EmojiTransportation";
+import Link from "next/link";
 
 const SideDashboard = () => {
   return (
     <div className=" bg-white w-56  flex flex-col justify-between gap-5 p-3">
       <div className="flex flex-col gap-4">
-        <p className="Font-handwrite text-center">
-          <EmojiTransportationIcon />
-          CarShop
-        </p>
+        <Link href="/">
+          <p className="Font-handwrite text-center">
+            <EmojiTransportationIcon />
+            CarShop
+          </p>
+        </Link>
 
         <ul className="list-none flex flex-col gap-5  ">
           <li className="flex flex-row gap-2  rounded-xl items-center hover:bg-gray-400 p-2 hover:cursor-pointer hover:rounded-xl  transition ease-in-out ">
